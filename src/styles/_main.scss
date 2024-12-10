@@ -129,8 +129,8 @@ body {
 .item_dis-lg,
 .nav_dis-lg-flex,
 .title_dis-md,
-.content__more_brends,
-.content__more_technic {
+.content-more_brends,
+.content-more_technic {
     display: none;
 }
 
@@ -477,7 +477,7 @@ body {
     padding-bottom: 24px;
 }
 
-.content__more {
+.content-more {
     background-color: #f8f8f8;
     font-size: 16px;
     font-family: 'TT Lakes';
@@ -487,7 +487,7 @@ body {
     margin-left: 15px;
 }
 
-.content__more_yr{
+.content-more_yr{
     background-color: #f8f8f8;
     font-size: 16px;
     font-family: 'TT Lakes';
@@ -498,7 +498,7 @@ body {
     padding: 0px 50px 40px 0px;
 }
 
-.content__more_yr::after{
+.content-more_yr::after{
     content: url(/src/assets/img/main_img/Line.svg);
     position: relative;
     left: 10px;
@@ -506,16 +506,16 @@ body {
 
 }
 
-.content__more:hover {
+.content-more:hover {
     color: #7E7E82;
     transform: scale(0.9);
 }
 
-.content__more_text {
+.content-more_text {
     margin-bottom: 20px;
 }
 
-.content__more_text::before {
+.content-more_text::before {
     display: inline-block;
     content: url("/src/assets/img/main_img/expand.svg");
     position: relative;
@@ -526,7 +526,7 @@ body {
     transform: rotate(-180deg);
 }
 
-.content__more_text.content__more_text--show::before {
+.content-more_text.content-more_text--show::before {
     transform: rotate(0deg);
     top: 5px;
 }
@@ -537,7 +537,7 @@ body {
     border-radius: 5px;
 }
 
-.content_img {
+.content__img {
     width: 100%;
     height: auto;
     max-width: 530px;
@@ -564,7 +564,7 @@ body {
 
 }
 
-.swiper-img__brend {
+.swiper-img_brend {
     width: 240px;
     height: 72px;
     background-color: #ffffff;
@@ -573,67 +573,67 @@ body {
     transition: transform .5s;
 }
 
-.swiper-img__brend:hover {
+.swiper-img_brend:hover {
     transform: scale(0.9);
 }
 
-.swiper-img__brend::after {
+.swiper-img_brend::after {
     content: url(/src/assets/img/main_img/go.svg);
     position: absolute;
     left: 185px;
     top: 15px;
 }
 
-.swiper-img__brend_lenovo::before {
+.swiper-img_brend-lenovo::before {
     content: url(/src/assets/img/main_img/lenovo.svg);
     position: absolute;
     left: 10px;
     top: 20px;
 }
 
-.swiper-img__brend_samsung::before {
+.swiper-img_brend-samsung::before {
     content: url(/src/assets/img/main_img/samsung.svg);
     position: absolute;
     left: 10px;
     top: 15px;
 }
 
-.swiper-img__brend_apple::before {
+.swiper-img_brend-apple::before {
     content: url(/src/assets/img/main_img/apple.svg);
     position: absolute;
     left: 10px;
     top: 12px;
 }
 
-.swiper-img__brend_viewsonic::before {
+.swiper-img_brend-viewsonic::before {
     content: url(/src/assets/img/main_img/viewsonic.svg);
     position: absolute;
     left: 10px;
     top: 25px;
 }
 
-.swiper-img__brend_bosch::before {
+.swiper-img_brend-bosch::before {
     content: url(/src/assets/img/main_img/bosch.svg);
     position: absolute;
     left: 10px;
     top: 20px;
 }
 
-.swiper-img__brend_hp::before {
+.swiper-img_brend-hp::before {
     content: url(/src/assets/img/main_img/hp.svg);
     position: absolute;
     left: 10px;
     top: 10px;
 }
 
-.swiper-img__brend_acer::before {
+.swiper-img_brend-acer::before {
     content: url(/src/assets/img/main_img/acer.svg);
     position: absolute;
     left: 10px;
     top: 22px;
 }
 
-.swiper-img__brend_sony::before {
+.swiper-img_brend-sony::before {
     content: url(/src/assets/img/main_img/sony.svg);
     position: absolute;
     left: 10px;
@@ -657,7 +657,7 @@ body {
 
 }
 
-.swiper__brend {
+.swiper-brend {
     height: 110px;
     padding-left: 16px;
 }
@@ -665,10 +665,9 @@ body {
 .swiper-img__title {
     font-family: TT Lakes;
     font-size: 16px;
-    margin-left: 16px;
 }
 
-.swiper-img__technic {
+.swiper-img_technic {
     width: 240px;
     height: 160px;
     background-color: #ffffff;
@@ -677,12 +676,16 @@ body {
     transition: transform .5s;
 }
 
-.swiper__technic {
+.swiper-img__title_technic{
+    margin-left: 16px;
+}
+
+.swiper-technic {
     height: 200px;
     padding-left: 16px;
 }
 
-.swiper-img__technic::after {
+.swiper-img_technic::after {
     content: url(/src/assets/img/main_img/go.svg);
     position: relative;
     left: 185px;
@@ -690,7 +693,7 @@ body {
 
 }
 
-.swiper-img__technic:hover {
+.swiper-img_technic:hover {
     transform: scale(0.9);
 }
 
@@ -731,7 +734,7 @@ body {
     opacity: 1;
 }
 
-.swiper-price__subtitle {
+.swiper-img__subtitle_price {
     font-family: 'TT Lakes Condensed';
     font-size: 14px;
     line-height: 16px;
@@ -741,21 +744,21 @@ body {
     margin: 0px 0px 6px 0px;
 }
 
-.swiper-price__item {
+.swiper-img__item_price {
     font-family: 'TT Lakes';
     font-size: 14px;
     margin: 0px 0px 16px 0px;
     color: #1B1C21;
 }
 
-.swiper-price__inner{
+.swiper-img_price{
     width: 260px;
     height: 200px;
     box-sizing: border-box;
     padding: 16px;
 }
 
-.swiper-wrapper__price{
+.swiper-wrapper_price{
     height: 250px;
 }
 
@@ -857,15 +860,15 @@ body {
         right: 130px;
     }
 
-    .swiper-price__subtitle{
+    .swiper-img__subtitle_price{
         display: none;
     }
     
     .dis-md,
     .title_dis-md,
-    .content__more_brends,
-    .content__more_technic,
-    .swiper-price__subtitle--dis-md {
+    .content-more_brends,
+    .content-more_technic,
+    .swiper-img__subtitle_price--dis-md {
         display: block;
     }
 
@@ -875,38 +878,38 @@ body {
         justify-content: start;
     }
 
-    .swiper-wrapper__brend,
-    .swiper-wrapper__technic {
+    .swiper-wrapper_brend,
+    .swiper-wrapper_technic {
         flex-wrap: wrap;
         gap: 16px 32px;
     }
 
-    .swiper-slide__brend,
-    .swiper-slide__technic {
+    .swiper-slide_brend,
+    .swiper-slide_technic {
         width: auto;
     }
 
-    .swiper__brend {
+    .swiper-brend {
         height: 80px;
     }
 
-    .swiper__technic {
+    .swiper-technic {
         height: 170px;
     }
 
-    .swiper__brend--show,
-    .swiper__technic--show{
+    .swiper-brend--show,
+    .swiper-technic--show{
         height: auto;
     }
 
-    .content__more_brends,
-    .content__more_technic {
+    .content-more_brends,
+    .content-more_technic {
         margin: 10px 0px 0px 15px;
         padding-bottom: 32px;
     }
 
-    .content__more_brends::before,
-    .content__more_technic::before {
+    .content-more_brends::before,
+    .content-more_technic::before {
         content: url("/src/assets/img/main_img/expand.svg");
         position: relative;
         right: 5px;
@@ -916,13 +919,13 @@ body {
         transform: rotate(-180deg);
     }
 
-    .content__more_brends.content__more_brends--show::before,
-    .content__more_technic.content__more_technic--show::before {
+    .content-more_brends.content-more_brends--show::before,
+    .content-more_technic.content-more_technic--show::before {
         transform: rotate(0deg);
         top: 5px;
     }
 
-    .swiper-price__inner{
+    .swiper-img_price{
         display: flex;
         width: 100%;
         border-bottom:1px solid #EAEAEA;
@@ -931,7 +934,7 @@ body {
         justify-content: space-between;
     }
 
-    .swiper-wrapper__price{
+    .swiper-wrapper_price{
         padding: 0px 40px;
         display: flex;
         flex-direction: column;
@@ -939,16 +942,16 @@ body {
         width: auto;
     }
 
-    .swiper-price__info{
+    .swiper-img__info{
         display: flex;
     }
 
-    .swiper-slide__price,
-    .swiper-price{
+    .swiper-slide_price,
+    .swiper-img_price{
         height: auto;
     }
 
-    .swiper-slide__price{
+    .swiper-slide_price{
         width: 100%;
     }
     
@@ -957,21 +960,21 @@ body {
         margin-bottom: 10px;
     }
 
-    .swiper-price__subtitle--dis-md{
+    .swiper-img__subtitle_price--dis-md{
         margin-bottom:40px ;
     }
     
     
 
-    .swiper-price__inner_last{
+    .swiper-img_price--last{
         border: none;
     }
 
-    .swiper-price__info>.swiper-price__price-title{
+    .swiper-img__info>.swiper-img__title_price{
         margin-right: 40px;
     }
 
-    .swiper-price__item_free{
+    .swiper-img__item_price--free{
         margin-right: 9px;
     }
 
@@ -1014,8 +1017,7 @@ body {
     .footer {
         max-width: 1160px;
         margin: 0 auto;
-        position: relative;
-        left: 140px;
+        padding-left: 280px;
     }
 
     .footer__item_info {
@@ -1152,15 +1154,15 @@ body {
         width: 440px;
     }
 
-    .swiper-wrapper__brend {
+    .swiper-wrapper_brend {
         grid-template-columns: 24% 24% 24% 24%;
     }
 
-    .swiper-slide__brend {
+    .swiper-slide_brend {
         margin: 0;
     }
 
-    .swiper-price__price-title{
+    .swiper-price__title{
         margin-right: 150px;
     }
     

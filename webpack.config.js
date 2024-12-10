@@ -7,10 +7,10 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-        main: './script.js'
+        main: './scripts/script.js'
     },
     output: {
-        filename: '[name].[contenthash].js',
+        filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [

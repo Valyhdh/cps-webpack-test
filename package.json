@@ -3,7 +3,7 @@
   "name": "cps-webpack-test",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "script.js",
   "scripts": {
     "deploy": "npm run build && gh-pages -d dist -r https://github.com/Valyhdh/cps-webpack-test",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +18,8 @@
     "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "swiper": "^11.1.15"
   }
 }
